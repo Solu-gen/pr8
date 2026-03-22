@@ -12,11 +12,11 @@ function ProductCard({
 
   return (
     <div
-      className="h-[55vh] transition-all duration-300"
+      className="transition-all duration-300"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
-
+      <img src="" alt="" />
       <div className="flex justify-center">
         <img
           src={product.image}
